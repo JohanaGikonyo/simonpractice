@@ -1,0 +1,65 @@
+body{
+    
+}
+img{
+    z-index: 1;
+}
+hr{
+    width: 5px;
+    height: 200px;
+    background-color: orange;
+    float: left;
+    margin: 30px;
+}
+.home{
+    color: white;
+    background-color: rgb(148, 143, 92);
+    width: 750px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid blue;
+    justify-content: flex-end;
+    width: 400px;
+    flex-wrap: wrap;
+    float: right;
+}
+.item{
+padding: 20px;
+flex-grow: 5;
+
+}
+.item :hover{
+    background-color: burlywood;
+    color: yellow;
+    
+}
+
+
+.containers{
+display: grid;
+grid-template-columns: auto auto auto auto; 
+background-color: blue;
+width: 400px;
+gap: 5px 10px;
+
+
+
+}
+.items{
+    
+    background-color: gray;
+    padding: 20px;
+    
+}
+.items-1{
+    background-color: gray;
+grid-column: span 4;
+
+}
+td{
+    padding: 10px;
+    margin: 10px;
+
+}
