@@ -61,6 +61,15 @@
    
     
 </table>
+<p id="script"></p>
+<script>
+function getvalue(){
+var value=println("Enter your name: ");
+document.write("You have entered: "+value);
+}
+<input type="button" value="Click me" onclick="document.getElementById('script').innerHTML=getvalue()"/>
+
+</script>
 
 </body>
 </html>
